@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const toFactor = conversionFactors[selectedUnitType][toUnit];
             const outputValue = inputValue * fromFactor / toFactor;
 
-            result.textContent = `${inputValue} ${fromUnit} = ${outputValue.toFixed(2)} ${toUnit}`;
+            result.textContent = `${inputValue} ${fromUnit} = ${outputValue.toFixed(10)} ${toUnit}`;
         }
     }
 
